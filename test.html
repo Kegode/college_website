@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .navbar{
+            background-color: brown;
+            padding: 15px 30px;
+            width: 100%;
+        }
+        .nav-container{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width:90%;
+            }
+        .logo{
+            color: white;
+            font-size: 26px;
+            font-weight: bold;
+        }
+        .nav-menu{
+            display: flex;
+            list-style: none;
+            gap: 40px;
+        }
+        .nav-link{
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .signup-btn{
+            background-color: white;
+            color: black;
+            padding: 8px 20px;
+            border-radius: 20px;
+            border: none;
+        }
+        .signup-btn:hover{
+            background-color: black;
+            color: white;
+        }
+        .nav-link:hover{
+            background-color: black;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        main{
+            padding: 20px;
+            background-color: brown;
+            margin: 20px auto;
+            border-radius: 10px;
+            max-width: 1000px;
+        }
+        h1{
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: white;
+        }
+        h2{
+            font-size: 24px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: white;
+            padding-bottom: 5px;
+            border-bottom: 2px solid white;
+
+        }
+        .hero-image{
+            background-image: url("university-2104580_1280.jpg");
+            height: 400px;
+            border-radius: 10px;
+            background-size: cover;
+            background-position: center;
+        }
+        .hero-text{
+            text-align: center;
+            color: brown;
+            font-size: 36px;
+            font-weight: bold;
+            position: relative;
+            top: 50%;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="logo">
+            MyBrand
+        </div>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact Us</a></li>
+            <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+        </ul>
+        <div class="nav-button">
+            <button class="signup-btn">Sign Up</button>
+        </div>
+    </div>
+</nav>
+<main>
+    <section class="about-us">
+        <h1>About Us</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda autem corporis cum dicta, eaque ex excepturi exercitationem explicabo harum id illo illum ipsum iusto magni non nostrum officia porro praesentium quaerat qui reiciendis rem reprehenderit sed totam, unde veniam voluptatibus.</p>
+        <h2>Our Mission</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet dignissimos excepturi, exercitationem, hic id illum labore molestiae natus nesciunt, officia officiis soluta veniam? Aspernatur culpa debitis exercitationem molestias natus non possimus praesentium quibusdam quos soluta suscipit tempore ullam, velit.</p>
+    </section>
+    <section class="about">
+        <div class="hero-image">
+            <div class="hero-text">THE NAIROBI UNIVERSITY</div>
+        </div>
+    </section>
+    <section>
+        <h2>Our Core Values</h2>
+        <ul>
+            <li>Compassion</li>
+            <li>Excellence</li>
+            <li>Innovation</li>
+            <li>Integrity</li>
+        </ul>
+    </section>
+    <section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.846304521731!2d36.798140673824754!3d-1.2647554356005593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1741d28f6777%3A0xc89ebb559b0da912!2seMobilis%20Technology%20Training%20Institute!5e0!3m2!1sen!2ske!4v1768829462307!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+</main>
+<footer>
+    &copy The Nairobi University. All rights reserved.
+</footer>
+</body>
+</html>
